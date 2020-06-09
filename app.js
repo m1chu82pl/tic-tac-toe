@@ -7,11 +7,6 @@ const pWin = document.querySelector('.win');
 const newGameButton = document.querySelector('.newGameButton');
 
 
-// const getLost = document.querySelectorAll("div");
-// const getLost = document.getElementById("text");
-// const getLost = document.getElementsByClassName("disappear")[0];
-// ta metoda zwraca element tablicopodobny i wskazujemy jego konkretny element
-
 let arrO = [];
 let arrX = [];
 let i = 0;
@@ -59,8 +54,7 @@ function newGame() {
 };
 
 
-for (let field of fields) {
-    //podpinam pod każdy przycisk zdarzenie click, które po kliknięciu pokaże text przycisku    
+for (let field of fields) { 
 
     field.addEventListener("click", function () {
 
