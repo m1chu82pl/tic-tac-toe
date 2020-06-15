@@ -16,18 +16,14 @@ h1 {
 }
 
 h2 {
-    /* line-height: 25px; */
     text-align: center;
-    /* margin-left: 20px; */
     padding: 8vh 0;
 }
 
 h3 {
     font-size: 16px;
-    /* line-height: 25px; */
     text-align: center;
     margin: 20px;
-    /* padding: 20px 5px; */
 }
 
 .disappear {
@@ -64,11 +60,7 @@ button {
     height: 45vh;
     width: 45vh;
     background-color: #fff;
-    /* box-shadow: 15px rgb(255, 255, 255); */
-    /* box-shadow: 3px 3px 15px rgb(189, 219, 181), rgb(91, 131, 17) -3px 3px 10px, 3px -3px 10px; */
     border-radius: 15px;
-    /* border: 10px rgb(168, 34, 34); */
-    /* background-color: rgb(71, 128, 69); */
     transform: translateX(100vw);
     transition: ease-in .6s;
 }
@@ -87,11 +79,7 @@ button {
     /*  centrowanie elementu wewnątrz */
     line-height: 50px;
     font-weight: 900;
-    /* text-shadow: 8px 8px 4px rgba(68, 68, 10, 0.733); */
     margin: 2%;
-    /* border: 5px solid red; */
-    /* border-right: 2px black solid; */
-    /* border-bottom: 2px black solid; */
     font-size: 0px;
     border-radius: 15px;
     background-color: #59C3C3;
@@ -142,8 +130,7 @@ p.win {
     }
 }
 
-
-/* .field:hover {
-    background-color: rgb(58, 78, 28);    
-} */
-/* aktywna przy wersji komputerowej */
+.gameScreen {
+    position: fixed;
+    width: 1px;
+}
